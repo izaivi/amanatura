@@ -3,64 +3,103 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AmaNatura – Guía Natural GPT</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+  <title>Izaivi | Creadora Multiverso</title>
   <style>
     body {
-      font-family: 'Open Sans', sans-serif;
-      background-color: #f7f7f4;
-      color: #333;
       margin: 0;
-      padding: 0;
-      text-align: center;
+      font-family: 'Segoe UI', sans-serif;
+      background: #fdfdfd;
+      color: #333;
+      line-height: 1.6;
     }
     header {
-      padding: 60px 20px 20px;
-    }
-    header img {
-      width: 120px;
-      height: auto;
-    }
-    h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: 2.5rem;
-      margin-top: 20px;
-    }
-    p {
-      max-width: 600px;
-      margin: 0 auto 30px;
-      line-height: 1.6;
-      padding: 0 20px;
-    }
-    .btn {
-      display: inline-block;
-      margin: 10px;
-      padding: 12px 24px;
-      background-color: #557a46;
+      background: url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1400&q=80') center/cover no-repeat;
       color: white;
+      text-align: center;
+      padding: 5rem 1rem 4rem;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    section {
+      max-width: 800px;
+      margin: auto;
+      padding: 2rem 1rem;
+    }
+    .proyectos {
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 2rem 0;
+    }
+    .icono {
+      font-size: 2rem;
       text-decoration: none;
-      border-radius: 8px;
-      font-weight: bold;
+      color: #333;
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+    .icono:hover {
+      transform: scale(1.1);
+      color: #6c63ff;
+    }
+    .icono span {
+      display: block;
+      margin-top: 0.5rem;
+      font-size: 1rem;
+      color: #555;
     }
     footer {
-      margin-top: 50px;
-      font-size: 0.9rem;
-      color: #888;
+      text-align: center;
+      padding: 2rem;
+      background: #f3f3f3;
+      color: #555;
+    }
+    footer a {
+      color: #6c63ff;
+      text-decoration: none;
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
   <header>
-    <img src="logo.png" alt="AmaNatura Logo" />
-    <h1>AmaNatura</h1>
-    <p>Guía natural para una vida larga, serena y consciente. Basado en naturopatía, longevidad, ayuno, belleza natural y filosofía slow.</p>
-    <a class="btn" href="https://chatgpt.com/g/g-682b99cbf7608191b12d678d807118b7-amanatura" target="_blank">Probar AmaNatura en GPT</a>
-    <a class="btn" href="https://www.buymeacoffee.com/izaivi" target="_blank">Apóyame con una infusión ☕</a>
+    <h1>Izaivi</h1>
+    <p>Creadora de mapas, historias, y universos compartidos</p>
   </header>
 
+  <section>
+    <h2>Hola, soy Izaivi</h2>
+    <p>Exploro distintos mundos creativos, desde el diseño de mapas en Fortnite hasta la lectura de libros poco comunes, pasando por proyectos cinematográficos, mágicos y automatizados. Me mueven la curiosidad, la estética y la posibilidad de conectar con otras almas creativas como tú.</p>
+  </section>
+
+  <section>
+    <h2>Mis proyectos</h2>
+    <div class="proyectos">
+      <a href="https://www.fortnite.com/@izaivi?lang=es-MX" class="icono" title="Explora mis mapas creativos en Fortnite">
+        🎮 <span>Mapas de Fortnite</span>
+      </a>
+      <a href="https://www.youtube.com/@izaivigamermom" class="icono" title="Videos y directos desde mi consola como GamerMom">
+        🎙️ <span>Canal GamerMom</span>
+      </a>
+      <a href="https://www.youtube.com/@ShashinVivi" class="icono" title="Resúmenes y relatos sobre libros únicos y teorías ocultas">
+        📚 <span>Canal de libros</span>
+      </a>
+      <a href="https://chatgpt.com/g/g-682b99cbf7608191b12d678d807118b7-amanatura" class="icono" title="Explora el mundo íntimo y mágico de AmaNatura">
+        🌒 <span>AmaNatura</span>
+      </a>
+    </div>
+  </section>
+
   <footer>
-    Proyecto independiente creado con amor. No sustituye asesoría médica profesional.
+    <p>¿Te gusta lo que creo? Si en algún momento alguna historia, mapa o video te regaló una sonrisa, un momento de calma o inspiración... puedes apoyarme con una pequeña infusión 🫖</p>
+    <p><a href="https://www.buymeacoffee.com/izaivi" target="_blank">Regálame una infusión 🍵</a></p>
   </footer>
 </body>
 </html>
